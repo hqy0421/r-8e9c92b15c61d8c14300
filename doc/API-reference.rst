@@ -245,3 +245,20 @@ Origin tracking
 
 .. autoclass:: Origin
    :members:
+
+Constrained ridge regression
+----------------------------
+
+.. autofunction:: constrained_ridge
+
+.. autoclass:: ScenarioConstraints
+   :members:
+
+.. autoclass:: ConstrainedRidgeResults
+   :members:
+
+.. autoclass:: ConstraintStatus
+   :members:
+
+.. autoexception:: InfeasibleConstraintsError
+   :members:

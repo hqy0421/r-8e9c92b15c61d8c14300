@@ -11,6 +11,10 @@ All Patsy releases are archived at Zenodo:
 v1.0.3
 ------
 
+* Added :func:`constrained_ridge`: weighted ridge regression with hard
+  linear constraints on scenario predictions, including equality and
+  inequality bounds, explicit infeasibility reporting, and prediction on new
+  data through the same fitted design (missing rows preserved as NaN).
 * Added official support for Python 3.14.
 * Fixed constraint tokenizer compatibility with Python 3.15 pre-releases.
 * Updates to CI tooling and doc building.
